@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(37, 35, 35);
+    font-family: var(--font-arial-helvetica-sans);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+.container__link a { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+   text-decoration: underline;
+
+}
