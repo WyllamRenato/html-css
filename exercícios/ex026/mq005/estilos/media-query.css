@@ -14,6 +14,12 @@ Grandes telas: acima de 1200px
         display: none;
     }
 
+    #burguer:hover {
+        background-color: initial;
+        color: initial;
+        cursor: default;
+    }
+
     menu {
         display: block;
     }
@@ -25,4 +31,7 @@ Grandes telas: acima de 1200px
     main {
         width: 768px; /*A tela com letras permanece em 768 mesmo em larguras maiores*/
     }
+
+
+
 }
